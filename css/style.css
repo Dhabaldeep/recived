@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background: rgb(25, 11, 11);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.from-box{
+    width: 380px;
+    height:480px;
+    position: relative;
+    margin:6% auto;
+    background: #fff;
+    padding:5px;
+}
+.button-box{
+    width:220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px crimson;
+    border-radius: 30px;
+}
