@@ -40,14 +40,13 @@ if (isset($_POST['send'])) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username = "rondesar.templates@gmail.com";
-        // $mail->Password = "W@ta+[3*gDq>!uTzD";
-        $mail->Password = "phdjjacuakbaldzj";
+        $mail->Username = "";
+        $mail->Password = "";
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
         //Recipients
-        $mail->setFrom('rondesar.templates@gmail.com', 'rondesar');
+        $mail->setFrom('', '');
         $mail->addAddress($email);               //Name is optional
 
 
@@ -80,13 +79,13 @@ if (isset($_POST['submit'])) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username = "rondesar.templates@gmail.com";
-        $mail->Password = "phdjjacuakbaldzj";
+        $mail->Username = "";
+        $mail->Password = "";
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
         //Recipients
-        $mail->setFrom('rondesar.templates@gmail.com', 'rondesar');
+        $mail->setFrom('', '');
         $mail->addAddress($email);               //Name is optional
 
 
